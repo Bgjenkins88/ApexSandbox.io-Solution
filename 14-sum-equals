@@ -2,5 +2,5 @@ public Boolean sumEquals(Integer a, Integer b, Integer c) {
     //code here
 
 
-    return if ( A + B = C)
+    return if ( (A + B) == C)
 }
