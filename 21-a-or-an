@@ -5,6 +5,7 @@ public String aOrAn(String word) {
     Set<String> nanSet  = new Set<String>();
     String finalWord;
  
+ 
 //figure out what word variable start with 
 //method or loop to compare to anList
 for (string b : anList){
