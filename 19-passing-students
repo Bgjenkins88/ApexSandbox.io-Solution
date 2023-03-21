@@ -21,6 +21,6 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
     }
 
 
-return (yesList.size() >= 2);
+return (yesList.size() > 1);
 
 }
