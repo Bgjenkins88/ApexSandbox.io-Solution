@@ -5,12 +5,12 @@ public String aOrAn(String word) {
     Set<String> nanSet  = new Set<String>();
     String finalWord;
  
- 
+
 //figure out what word variable start with 
 //method or loop to compare to anList
 for (string b : anList){
 
-if ( word.startwith(b)){
+if ( word.startswith(b)){
 
         finalWord = 'an'+ ' '+ word;
         //anSet.add(finalWord);    
