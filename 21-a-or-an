@@ -1,0 +1,33 @@
+public String aOrAn(String word) {
+    //code
+    List<String> anList = new List<String>{'a','e','i','o','or','u'};
+    Set<String> anSet   = new Set<String>();
+    Set<String> nanSet  = new Set<String>();
+    String finalWord;
+ 
+//figure out what word variable start with 
+//method or loop to compare to anList
+for (string b : anList){
+
+if ( word.startwith(b)){
+
+        finalWord = 'an'+ ' '+ word;
+        //anSet.add(finalWord);    
+  
+  break;
+
+}
+  else{
+
+      finalWord = 'a'+ ' '+ word;
+
+
+  }
+}
+
+
+return finalWord;
+//if true add an 
+//if false add a 
+
+}
