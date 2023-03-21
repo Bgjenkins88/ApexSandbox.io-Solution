@@ -2,7 +2,7 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
     //code here
     List<Boolean> yesList = new List<Boolean>();
     List<Boolean> noList = new List<Boolean>();
-    List<Boolean> passFail List = new List<Boolean>{passedExam,passedAssignments,passedProject};
+    List<Boolean> passFail  = new List<Boolean>{passedExam,passedAssignments,passedProject};
 
     for (Boolean car : passFail){
 
