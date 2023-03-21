@@ -1,0 +1,26 @@
+public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
+    //code here
+    List<Boolean> yesList = new List<Boolean>();
+    List<Boolean> noList = new List<Boolean>();
+    List<Boolean> passFail List = new List<Boolean>{passedExam,passedAssignments,passedProject};
+
+    for (Boolean car : passFail){
+
+        if (car == True){
+
+            yesList.add(car);
+        }
+
+        if (car == false){
+
+            noList.add(car);
+
+        }
+
+
+    }
+
+
+return (yesList.size() >= 2);
+
+}
