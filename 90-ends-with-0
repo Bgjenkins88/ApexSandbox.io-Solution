@@ -1,6 +1,6 @@
 public Boolean isEndWithZero(Integer num){
      //code here
-        String stringNumber = (String)num;
+        String stringNumber = string.valueOf(num):
 
         stringNumber = stringNumber.right(1);
    
