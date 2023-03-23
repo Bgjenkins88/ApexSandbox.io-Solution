@@ -3,6 +3,8 @@ public Boolean isEndWithZero(Integer num){
         String stringNumber = string.valueOf(num):
 
         stringNumber = stringNumber.right(0);
+
+        Integer finalNumber = Integer.valueOf(stringNumber);
    
-     return (stringNumber == '0');
+     return (finalNumber == 0);
 }
