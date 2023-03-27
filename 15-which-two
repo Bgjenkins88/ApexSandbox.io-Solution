@@ -1,17 +1,17 @@
 public String whichTwo(Integer a, Integer b, Integer c) {
  
  if ( a + b == c){
-     return c; 
+     return String.valueof(c); 
  }
  
  if ( a + c == b){
 
-     return b;
+     return String.valueOf(b);
  }
 
 if(b + c == a){
 
-return a; 
+return String.valueOf(a); 
 
 }
 
@@ -19,7 +19,7 @@ else {
 
 string empty = '';
 
-    return empty;
+    return String.valueof(empty);
 }
 
 
