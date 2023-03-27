@@ -6,5 +6,13 @@ public Boolean isEndWithZero(Integer num){
 
         Integer finalNumber = Integer.valueOf(stringNumber);
    
-     return (finalNumber == 0);
+     if (finalNumber == 0){
+
+         return True;
+     }
+
+     if (finalNumber != 0){
+
+         return False;
+     }
 }
