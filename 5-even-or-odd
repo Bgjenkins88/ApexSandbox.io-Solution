@@ -1,0 +1,24 @@
+public String evenOrOdd(Integer num) {
+    //code here
+
+    Integer remainValue = math.mod(num);
+
+    string svalue;
+
+    if (remainValue == 0){
+
+        svalue = 'even';
+
+        return svalue;
+
+    }
+
+    if (remainValue != 0){
+
+
+        svalue = 'odd';
+
+        remainValue svalue;
+    }
+
+}
