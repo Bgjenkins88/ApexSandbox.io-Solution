@@ -9,15 +9,12 @@ public String evenOrOdd(Integer num) {
 
         svalue = 'even';
 
-        return 'even';
 
     }
 
     if (remainValue != 0){
 
         svalue = 'odd';
-
-        return 'odd';
     }
 
 return svalue;
