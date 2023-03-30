@@ -4,14 +4,14 @@ public Boolean isEndWithZero(Integer num){
 
         stringNumber = stringNumber.right(0);
 
-        Integer finalNumber = Integer.valueOf(stringNumber);
+       // Integer finalNumber = Integer.valueOf(stringNumber);
    
-     if (finalNumber == 0){
+     if (stringNumber == '0'){
 
          return True;
      }
 
-     if (finalNumber != 0){
+     if (stringNumber != '0'){
 
          return False;
      }
