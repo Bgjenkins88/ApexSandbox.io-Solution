@@ -3,24 +3,24 @@ public String evenOrOdd(Integer num) {
 
     Integer remainValue = math.mod(num,2);
 
-    string svalue = '';
+   // string svalue = '';
 
     if (remainValue == 0){
 
-        svalue = 'even';
+        //svalue = 'even';
 
-        return svalue;
+        return 'even';
 
     }
 
     if (remainValue != 0){
 
-        svalue = 'odd';
+        //svalue = 'odd';
 
-        return svalue;
+        return 'odd';
     }
 
-return svalue;
+//return svalue;
 
 }
 
