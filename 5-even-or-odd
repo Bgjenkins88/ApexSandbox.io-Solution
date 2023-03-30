@@ -1,7 +1,7 @@
 public String evenOrOdd(Integer num) {
     //code here
 
-    Integer remainValue = math.mod(num);
+    Integer remainValue = math.mod(num,2);
 
     string svalue;
 
