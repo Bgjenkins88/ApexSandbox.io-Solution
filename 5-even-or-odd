@@ -3,7 +3,7 @@ public String evenOrOdd(Integer num) {
 
     Integer remainValue = math.mod(num,2);
 
-    string svalue;
+    string svalue = '';
 
     if (remainValue == 0){
 
