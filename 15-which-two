@@ -19,7 +19,7 @@ else {
 
 string empty = '';
 
-    return String.valueof(empty);
+    return empty;
 }
 
 
