@@ -15,8 +15,7 @@ public String evenOrOdd(Integer num) {
 
     if (remainValue != 0){
 
-
-        svalue = 'odd';
+        svalue = "odd";
 
         return svalue;
     }
