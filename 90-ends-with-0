@@ -8,12 +8,12 @@ public Boolean isEndWithZero(Integer num){
 
         Boolean finalValue;
    
-     if (finalNumber == 0){
+     if (stringNumber == '0'){
 
          finalValue = True;
      }
 
-     if (finalNumber != 0){
+     if (stringNumber != '0'){
 
          finalValue = False;
      }
