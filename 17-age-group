@@ -16,10 +16,8 @@ public String ageGroup(Integer n) {
         return 'Youth';
     }
 
-      if  (n >= 22){
-        system.debug('inside adult');
         return 'Adult';
-    }
+    
 
 
 }
