@@ -1,22 +1,23 @@
 public String ageGroup(Integer n) {
     
     if (n <= 1){
-        
+       system.debug('inside infant'); 
         return 'Infant';
+        
     }
 
      if ( n >= 2 && n <= 14){
-
+        system.debug('inside child');
         return 'Child';
     }
 
       if (n >= 15 && n <= 21){
-
+        system.debug('inside youth');
         return 'Youth';
     }
 
       if  (n >= 22){
-
+        system.debug('inside adult');
         return 'Adult';
     }
 
