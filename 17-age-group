@@ -2,8 +2,9 @@ public String ageGroup(Integer n) {
     //code here
     Integer childAge = n;
 
-    if (childAge <= 1){
 
+    if (childAge <= 1){
+        system.debug('made it inside infant: value of child age is ' + childAge);
         return 'infant';
     }
 
