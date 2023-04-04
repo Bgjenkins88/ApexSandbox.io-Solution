@@ -2,18 +2,18 @@ public Boolean isEndWithZero(Integer num){
      //code here
         String stringNumber = string.valueOf(num):
 
-        stringNumber        = stringNumber.right(1);
+        String lastNumber   = stringNumber.right(1);
 
-        Integer finalNumber = Integer.valueOf(stringNumber);
+        //Integer finalNumber = Integer.valueOf(stringNumber);
 
         Boolean finalValue;
    
-     if (stringNumber == '0'){
+     if (lastNumber == '0'){
 
          finalValue = True;
      }
 
-     else (stringNumber != '0'){
+     else (lastNumber != '0'){
 
          finalValue = False;
      }
