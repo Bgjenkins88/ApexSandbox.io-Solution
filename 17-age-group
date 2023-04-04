@@ -14,9 +14,9 @@ public String ageGroup(Integer n) {
         return 'youth';
     }
 
-    if ( n >= 22){
+   
 
 
         return 'Adult';
-    }
+
 }
