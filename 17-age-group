@@ -1,8 +1,8 @@
 public String ageGroup(Integer n) {
     //code here
+    Integer childAge = n;
 
-
-    if (n <= 1){
+    if (childAge <= 1){
 
         return 'child';
     }
