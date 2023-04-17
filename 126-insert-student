@@ -1,7 +1,7 @@
 public Id insertStudent(String name, String email) {
     // code here
 
-    axpio_student__c aStudent = new axpio_student__c();
+    apxio__Student__c aStudent = new apxio__Student__c();
     aStudent.name          =  name;
     aStudent.axpio_email__c = email;
 
@@ -9,5 +9,5 @@ public Id insertStudent(String name, String email) {
 
     return aStudent.id;
 
-    
+
 }
