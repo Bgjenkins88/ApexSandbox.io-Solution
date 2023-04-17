@@ -1,13 +1,13 @@
 public Id insertStudent(String name, String email) {
     // code here
 
-    apxio__Student__c aStudent;
-    aStudent.name          =  name;
-    aStudent.axpio_email__c = email;
+    apxio__Student__c newRecord = new apxio__Student__c();
+    newRecord.name              =  name;
+    newRecord.axpio__email__c    = email;
 
-    insert aStudent;
+    insert newRecord;
 
-    return aStudent.id;
+    return newRecord.id;
 
 
 }
