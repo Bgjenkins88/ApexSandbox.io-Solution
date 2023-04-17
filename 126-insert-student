@@ -1,0 +1,13 @@
+public Id insertStudent(String name, String email) {
+    // code here
+
+    axpio_student__c aStudent = new axpio_student__c();
+    aStudent.name          =  name;
+    aStudent.axpio_email__c = email;
+
+    insert aStudent;
+
+    return aStudent.id;
+
+    
+}
