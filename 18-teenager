@@ -1,16 +1,4 @@
 public Boolean isTeenager(Integer age) {
-//code here
-  if ( age >= 13 && age <= 19){
-
-      return True;
-  }
-
-  else{
-
-      return false;
-  } 
-
-  
-
-
+    // Given a person's age, return true if the person is a teenager (age 13 - 19)
+    return age >= 13 && age <= 19;
 }
