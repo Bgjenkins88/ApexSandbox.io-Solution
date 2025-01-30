@@ -1,10 +1,11 @@
 public Decimal computeTip(Decimal total, Integer percent) {
     //code here
 
-percent = percent/100
-Integer tipValue;
+Decimal upDatedPercent = Decimal.valueof(percent);
+upDatedPercent = upDatedPercent / 100;
+Decimal tipValue;
 
-tipValue = percent * total;
+tipValue = upDatedPercent * total;
 
 return tipValue;
 
