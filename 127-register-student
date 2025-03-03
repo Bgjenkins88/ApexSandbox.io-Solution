@@ -2,10 +2,12 @@ public String registerStudent(String name, String phone, String email) {
     // code here
     apxio__Student__c apxio             = new apxio__Student__c();
     apxio.apxio__Email__c               = email;
-    apxio.apxio_Phone__c               = phone;
-    apxio.name                         = name;
+    apxio.apxio_Phone__c                = phone;
+    apxio.name                          = name;
 
     insert apxio;
+
+    apxio = [Select Id, apxio_Registration_Number__c From apxio__Student__c Where Id = :apxio.Id];
 
     return apxio.apxio_Registration_Number__c;
 }
