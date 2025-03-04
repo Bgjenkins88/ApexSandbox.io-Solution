@@ -2,7 +2,8 @@ public List<apxio__Student__c> selectUnreachableStudents() {
     // code here
     apxio__Student__c[] alist = new apxio__Student__c{};
 
-    alist = [Select id, name From apxio__Student__c Where apxio__Email__c = null AND apxio__Phone__c DESC name];
+    alist = [Select id, name From apxio__Student__c Where apxio__Email__c = null AND apxio__Phone__c = null
+    DESC name];
 
     return alist;
 
