@@ -1,13 +1,13 @@
 public String registerStudent(String name, String phone, String email) {
     // code here
-    apxio__Student__c apxio             = new apxio__Student__c();
-    apxio.apxio__Email__c               = email;
-    apxio.apxio__Phone__c               = phone;
-    apxio.name                          = name;
+    apxio__Student__c s             = new apxio__Student__c();
+    s.apxio__Email__c               = email;
+    s.apxio__Phone__c               = phone;
+    s.name                          = name;
 
-    insert apxio;
+    insert s;
 
-    apxio__Student__c axpioValue = [Select Id, apxio__Registration_Number__c From apxio__Student__c where Id = :apxio.id Limit 1];
+    apxio__Student__c axpioValue = [Select Id, apxio__Registration_Number__c From apxio__Student__c where Id = :s.id Limit 1];
 
     return axpioValue.apxio_Registration_Number__c;
 }
