@@ -7,9 +7,9 @@ public String registerStudent(String name, String phone, String email) {
 
     insert s;
 
-    apxio__Student__c axpioValue = [Select Id, apxio__Registration_Number__c From apxio__Student__c where Id = :s.id Limit 1];
+    apxio__Student__c x = [Select Id, apxio__Registration_Number__c From apxio__Student__c where Id = :s.id Limit 1];
 
-    return axpioValue.apxio_Registration_Number__c;
+    return x.apxio_Registration_Number__c;
 }
 
 
