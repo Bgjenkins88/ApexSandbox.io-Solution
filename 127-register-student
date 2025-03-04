@@ -13,7 +13,6 @@ public String registerStudent(String name, String phone, String email) {
 }*/
 
 
-public String registerStudent(String name, String phone, String email) {
     // code here
     apxio__Student__c s = new apxio__Student__c();
     s.Name = name;
