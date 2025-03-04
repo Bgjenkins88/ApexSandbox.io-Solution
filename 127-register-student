@@ -1,6 +1,6 @@
 public String registerStudent(String name, String phone, String email) {
     // code here
-    apxio__Student__c s             = new apxio__Student__c();
+   /* apxio__Student__c s             = new apxio__Student__c();
     s.apxio__Email__c               = email;
     s.apxio__Phone__c               = phone;
     s.name                          = name;
@@ -10,10 +10,9 @@ public String registerStudent(String name, String phone, String email) {
     apxio__Student__c x = [Select Id, apxio__Registration_Number__c From apxio__Student__c where Id = :s.id Limit 1];
 
     return x.apxio_Registration_Number__c;
-}
+}*/
 
 
-/*
 public String registerStudent(String name, String phone, String email) {
     // code here
     apxio__Student__c s = new apxio__Student__c();
@@ -22,4 +21,4 @@ public String registerStudent(String name, String phone, String email) {
     s.apxio__Email__c = email;
     insert s;
     return [select apxio__Registration_Number__c from apxio__Student__c where Id =: s.Id].apxio__Registration_Number__c;
-} */
+} 
