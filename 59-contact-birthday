@@ -1,7 +1,7 @@
 public Boolean isBirthday(Contact c) {
     //code here
-    String today           = date.today().format('M/d');
+    String todayDate           = date.today().format('M/d');
     String contactBirthday = c.birthdate.format('M/d');
 
-    return today == contactBirthday? True : False;
+    return todayDate == contactBirthday? True : False;
 }
