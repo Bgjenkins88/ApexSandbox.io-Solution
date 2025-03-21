@@ -1,9 +1,8 @@
 public Boolean isBirthday(Contact c) {
-    if(c.birthdate == null) {
-        return false;
-    }
-    String todayDate       = Date.today().format('M/d');
-    String contactBirthday = c.birthdate.format('M/d');
-    return todayDate == contactBirthday;
-
+if (contactBirthday == null) {
+    return false;
+}
+String todayMonthDay = Date.today().format('M/d');
+String birthdayMonthDay = contactBirthday.format('M/d');
+return todayMonthDay == birthdayMonthDay;
 }
